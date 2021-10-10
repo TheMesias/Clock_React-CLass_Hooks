@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import RelojClass from "./components/RelojCLass";
+import RelojHooks from "./components/RelojHooks";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <RelojClass/>
+      <RelojHooks /> 
     </div>
   );
 }
